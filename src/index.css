@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  background: url('bg.jpg') no-repeat ;
+  text-align: center;
+}
+
+

@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-title {
+  color: rgb(160, 5, 31);
+  margin-bottom: 50px;
+}
+
+
+.FormInput {
+  padding: 5px 2px;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin: 5px;
+  font-size: 16px;
+  width: 200px;
+  color: #000;
+  outline: none;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.card {
+  margin: 20px;
+  padding:10px  20px;
+  background: transparent;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.FormBtn {
+  padding: 5px 20px;
+  border: none;
+  border: 1px solid tomato;
+  margin: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  outline: none;
+  background-color: tomato;
+}
+
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000;
+  opacity: 1;
+  /* Firefox */
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: inset 0 0 0px 9999px transparent;
+  background-color: transparent;
+}
+
+
+@media screen and (max-width: 500px) {
+.FormInput,
+.FormBtn {
+  width: 90%;
+  margin: 10px 0;
+}
+
+}
